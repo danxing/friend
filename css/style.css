@@ -1,0 +1,242 @@
+
+#music{
+    position: fixed;
+    right: 0px;
+    top: 2px;
+    width: 37px;
+    height: 37px;
+    z-index: 1000;
+}
+.item1_1 {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 0 auto;
+    
+}
+img {
+    border-style: none;
+    width: auto\9;
+    height: auto;
+    max-width: 100%;
+    vertical-align: top;
+    -ms-interpolation-mode: bicubic;
+}
+.item1_1 img {
+    z-index: 3;
+    border-style: none;
+    width: auto\9;
+    height: auto;
+    max-width: 100%;
+    vertical-align: top;
+}
+.item1_2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 70%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 44%;
+    border-radius: 20px;
+}
+.item1_2 img{
+  margin: 0 auto;
+    z-index: 1;
+}
+
+
+.page2{
+    display: -webkit-flex; /* Safari */
+    display: flex;
+
+    align-items:center;
+    flex-wrap:wrap;
+    justify-content:center;
+    position: relative;
+}
+.big_img_box {
+    width: 90%;
+    margin: 0 auto;
+    height: 100%;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.footer_box{
+    display: flex;
+    justify-content:center;
+    align-content:center;
+    flex-direction:row;
+    font-size: 18px;
+    color: #468C45;
+    font-weight: 600;
+    width: 80%;
+}
+
+.page3{
+    height: 100%;
+    display: -webkit-flex; /* Safari */
+    display: flex;
+    align-content:space-between;
+    flex-wrap:wrap;
+    
+}
+.page3 .box{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content:space-betwee;
+}
+.page3 .box img{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.page3 .box img{
+    width: 50%;
+    float: left;
+}
+.page3 .box .p_box{
+    width: 50%;
+    float: right;
+    display: -webkit-flex; Safari
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+}
+
+.page4{
+    display: -webkit-flex; /* Safari */
+    display: flex;
+    flex-wrap:wrap;
+    align-content:center;
+   
+}
+.page4 .item4_1{
+    overflow: hidden;
+    display: -webkit-flex; /* Safari */
+    display: flex;
+    align-content:center;
+    flex-direction:row;
+    justify-conten:space-between;
+}
+.page4 .item4_2{
+    margin: 20px auto;
+    overflow: hidden;
+    color: #B5B5B5;
+}
+.page4 .item4_2 p{
+    width: 100%;
+    text-align: center;
+}
+.page5{
+   display: -webkit-flex; Safari
+  display: flex;
+  align-items:center;
+  justify-content:center; 
+}
+.item5_1{
+  height: 330px;
+  width:330px; 
+  position: relative;
+}
+.item5_2{
+    width: 100%;
+    color:#FABFBF;
+
+}
+.item5_1 .bg3{
+    position: absolute;
+    left: 0;
+   right: 0;
+   margin: 0 auto;
+   width: 100%;
+   text-align: center;
+}
+.item5_1 .bg1{
+    width:250px;
+    height:250px;
+    border-radius: 250px;
+   background:#99BC98;
+   position: absolute;
+   left: 0;
+   right: 0;
+   top: 0;
+   bottom: 0;
+   margin: auto;
+   display: -webkit-flex; /* Safari */
+    display: flex;
+    align-items:center;
+    justify-content:center;
+}
+.item5_1 .bg2{
+    width:230px;
+    height:230px;
+    border-radius: 230px;
+    background-image: url(../img/wo.JPG);
+    background-size: cover;
+}
+.item5_2{
+    position: absolute;
+    top:100%;
+    left:0;
+    right:0;
+    margin:0 auto;
+    width:100%;
+    text-align: center;
+}
+.ours{
+    display: -webkit-flex; /* Safari */
+    display: flex;
+    align-content:center;
+    flex-wrap:wrap;
+    justify-conten:center;
+}
+.ours .bye{
+    text-align: center;
+    width: 100%;
+    color: #B5B5B5;
+    
+}
+.huabian {
+    position: absolute;
+    top: 20%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    color: #D93B3C;
+    font-size: 2rem;
+    text-align: center;
+    -webkit-animation: fangda 1s 1s infinite linear;
+    animation: fangda 1s 1s infinite linear;
+}
+@keyframes fangda{
+    0% { font-size: 1.5rem;}
+
+    50% { font-size:2rem;}
+    100% { font-size:2.5rem;}
+} 
+/* 延迟时间 */
+.yc1{
+     animation-delay: 1.5s;
+    -webkit-animation-delay: 1.5s;
+}
+/* 自定义的动画效果 */
+.rotates{
+   
+   -webkit-animation:rotate 5s 1s infinite linear;
+           animation:rotate 5s 1s infinite linear;
+}
+ @keyframes rotate{
+    0% { -webkit-transform: rotate(0deg);}
+
+    100% { -webkit-transform: rotate(360deg);}
